@@ -1,5 +1,19 @@
 # SyncStream 2.0 - Releases
 
+## v2.2.1 - 2026-09-28
+
+- Includes everything in 2.2.0: the walls update with the table, roll back, the new home row, wireframe on the walls, the cloud sync page
+- The frame's glow is gone on every page, table and walls: every line at one even brightness
+- Row cards carry pictures again - from the content already in the console (the first photo, a story page's artwork, a still from a film); a picture set in the card's HERO field wins
+- The walls' cards are the table's card, same to same: the thin breathing halo, the orange frame, the scan light, no number
+- The right wall is touched like the table: the cards slide under the finger with momentum, a touch on the landing opens the row, the thumbnails page with a swipe; the wall follows the table again after 90 s alone
+- Websites go to the walls: a SWIPE TO WALL grip on every page (from full screen too); on the wall the page fills the whole wall
+- The fluid is ONE canvas across both walls - a finger drawn from the front wall flows straight on to the right wall
+- Disc: four quadrants, one per model, with the orange SELECTED plate on the lit quadrant; the model column beside the frame is gone
+- Video controller: a film on a wall reports its clock, progress, play/pause, mute and loop back to the table, so the dock reads and drives it for real; the progress bar scrubs on drag
+- The dashboard no longer shows the IMG / PDF / VIDEO keys
+- The walls' background film is framed per wall like the table's (no stretching) under the table's grid
+
 ## v2.1.2 - 2026-09-08
 
 - White flash after opening media fixed: film targets start black and the picture only swaps on the first decoded frame

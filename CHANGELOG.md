@@ -1,5 +1,28 @@
 # SyncStream 2.0 - Releases
 
+## v2.2.3 - 2026-09-29
+
+- Includes everything in 2.2.2
+- Row cards on the table and the walls take the new frame: a stepped top-right cut, the bottom-left corner open with a small bracket, a barcode strip and a dot grid
+- The corner bracket marks are gone from every frame, on the table and the walls
+- The admin pad reads ADMIN with flat HUD keys (no glass); the wall's admin panel has the same frame and is smaller
+- Disc: a solid orange pointer inside the ring and an open, underlined model name outside it
+- Dashboard: the title and the three layouts are aligned as one centred group
+- Walls: everything done on the wall drives the table too - touching the landing, sliding the row and tapping a card; a card tap on the wall now opens it
+- Walls: the page's media frame and thumbnail column have the table's frame shape and sit inside the wall's frame; the thumbnails are plain, the selected one glows orange
+- Walls: a page with only films (WHO WE ARE) plays its film; the sync page shows on the front wall too; HOME and BACK without circles
+- New icons in the theme: the dashboard door (a video wall with its operator), the PDF mark, a filled back arrow, and the Tesla emblem at the centre of the disc
+- Walls: a RESET key on the rail runs the content again from the start; the rail's keys stand at one even spacing
+- Table: the dashboard key sits bottom-left, and every task bar icon is drawn at the same visible size as HOME
+- Disc: model names in Krophed with even spacing; the chosen one big and bold after the leader's dot, the others small and soft
+- Dashboard: the tile fills stay inside their frames; the old lines, the captions and the grip icon are gone (drag a page from its top edge to send it to a wall)
+- Walls: the page copy starts just under its heading; the heading and copy sit on a soft dark pool over the backdrop; BACK TO shows on pages only
+- Photos, films, PDFs and disc cards go to the FRONT wall only; dashboard web pages go to the RIGHT wall only, full screen, with one finger - and the table's copy closes once it is thrown
+- Dashboard pages on the table have a close button; in full screen HOME and BACK stay on the task bar
+- Three quick taps on the table clear the walls
+- Disc: the pointer turns live with the disc (its printed triangle); the lamp follows the short way round; no underline under the model name
+- Walls: HOME and BACK in the middle of the rail, volume at the foot; IMG / VID / PDF keys under the thumbnails; the thumbnails and the row slide smoothly under the finger; keys light orange like the table's (PLAY while a film plays); pages without thumbnails use a wide media frame
+
 ## v2.2.2 - 2026-09-29
 
 - Includes everything in 2.2.1

@@ -1,5 +1,19 @@
 # SyncStream 2.0 - Releases
 
+## v2.2.2 - 2026-09-29
+
+- Includes everything in 2.2.1
+- Updating from the table no longer stops when the walls can't answer: the table updates itself and says why the walls didn't follow
+- UPDATE WALLS: when the table is already current but the wall is behind, the update pane updates the walls alone
+- Wall settings: hold the centre of either wall for 3 seconds, enter the PIN, and the wall updates itself from the release
+- Two minutes with no hand on the table or the wall (content playing or not): the table goes home and the walls clear
+- Content pushed to the walls stays put: no more blink when the table is on its home page
+- Disc: only the disc's three feet drive it; one finger on the ring or its names does nothing
+- Disc: the selection always travels clockwise, with an orange pointer inside the ring on the selected model
+- Disc: the video controls and the PDF pager sit in the media panel, between the picture and the IMG/PDF/VID marks
+- A flick sends a card to the wall the moment it's released
+- WebGL fluid: no glow; tapping the card opens it and it stays after the card is lifted (close ring, BACK, HOME or two minutes idle end it); a second read of the card no longer wipes it
+
 ## v2.2.1 - 2026-09-28
 
 - Includes everything in 2.2.0: the walls update with the table, roll back, the new home row, wireframe on the walls, the cloud sync page

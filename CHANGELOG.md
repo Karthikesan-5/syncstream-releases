@@ -1,5 +1,11 @@
 # SyncStream 2.0 - Releases
 
+## v2.2.5 - 2026-09-30
+
+- Includes everything in 2.2.4
+- Disc: the reading column no longer drifts or flickers when the disc turns quickly - the name, rule, tagline and story stay in place and never overlap
+- Pages on the table: the number, title, rule and story stack by the words' own height - the rule always under the title, even gaps on every page
+
 ## v2.2.4 - 2026-09-29
 
 - Includes everything in 2.2.3 (not rolled out on its own)

@@ -1,5 +1,19 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.0 - 2026-09-30
+
+- RELEASE 2.3 - Dashboards, wall tiling and touch
+- Includes everything in 2.2.5
+- Dashboard 1x2: swipe a page UP and it goes to the front wall, swipe it RIGHT and it goes to the right wall - each full screen
+- Dashboard 2x5 DYNAMIC: pages split their wall as they arrive - one fills it, two sit side by side, three split the right half, four make even quarters, a fifth replaces the page that stood longest; every split glides into place
+- Dashboard 2x5 PRESET: ten pages assigned in the CMS (Webpages - 2x5 PRESET slot) open across both walls at once, two rows of five
+- Dashboard: a live map of both walls shows every page where it stands, with a close key on each; CLEAR WALLS empties them
+- Every key presses in the moment it is touched, and the layout and mode in force stay lit in orange
+- Disc: the pointer and the selection turn the same way as the hand; the disc follows the three fingers at once with no sticking; four fingers never open it
+- Disc: a model's PDF pushed to a wall is paged from the table - the pager and the strip move the wall's page, and a page turned on the wall moves the table
+- Walls: the card carousel drags 1:1 under the finger from anywhere (on a card too), throws with momentum and snaps a card to the middle; a side card tapped glides to the middle, the middle one opens
+- No more white flashes: pictures still on screen are never freed, films swap only on their first frame, and web pages show only once drawn
+
 ## v2.2.5 - 2026-09-30
 
 - Includes everything in 2.2.4

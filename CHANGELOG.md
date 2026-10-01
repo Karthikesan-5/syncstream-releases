@@ -1,5 +1,15 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.2 - 2026-10-01
+
+- Includes everything in 2.3.1
+- Walls: every dashboard page now loads - engines start one at a time so none is left dark, each new site gets its own fresh engine, and no page ever shows on the wrong tile or repeats
+- Walls: pages appear as soon as they have drawn (about 1-3 s each); the 2x5 PRESET fills both walls in under 10 s
+- Walls: no more freezing or lag while pages load - each page's picture is uploaded once per frame
+- Walls: cookie notices on dashboard pages are answered automatically (the privacy-keeping choice first), so the live data shows
+- Walls: the background film is 65% visible
+- Walls: an update that stalls falls back to downloading from the internet; CLEAR WALLS also clears walls on older versions
+
 ## v2.3.1 - 2026-10-01
 
 - Includes everything in 2.3.0

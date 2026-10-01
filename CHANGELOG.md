@@ -1,5 +1,11 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.1 - 2026-10-01
+
+- Includes everything in 2.3.0
+- Table: keys and source tiles no longer shake - the press is steady, pressed about the key's own centre, and a flickering touch reads as one press
+- Dashboard: a page sent to a wall also reaches a wall still on an older version
+
 ## v2.3.0 - 2026-09-30
 
 - RELEASE 2.3 - Dashboards, wall tiling and touch

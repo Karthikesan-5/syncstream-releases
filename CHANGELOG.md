@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.3 - 2026-10-01
+
+- Includes everything in 2.3.2
+- Table: a photo or page opened over a section's text now dims the words beneath it, so the two never fight for attention
+- Table: the row titles (EXPLORE / OUR EXPERIENCE / CENTRE) keep one even line spacing
+- Admin: the row names read more clearly against the dark panel
+
 ## v2.3.2 - 2026-10-01
 
 - Includes everything in 2.3.1

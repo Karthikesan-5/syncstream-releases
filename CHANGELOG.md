@@ -1,5 +1,14 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.4 - 2026-10-03
+
+- Includes everything in 2.3.3
+- Dashboard 1x1: JUBAIL ISLAND sits beside WEBGL FLUID - one touch opens the Jubail Island interactive image wall across both walls as one canvas
+- Walls: visitors can touch pages on the wall - Jubail's locators, previews, island tour and day/sunset/night; the wall map on the table shows it standing and CLEAR WALLS takes it down
+- Jubail Island runs unchanged inside the app: its films and island sound are in a format the wall's browser plays, and it sits in each wall's own page layer - thrown cards, the update page and the wall settings still show over it
+- Opening the WebGL fluid (dashboard or RFID tag) or sending a page to the right wall closes Jubail first, so two things never stand on a wall at once
+- The table shows Jubail's own poster in the 1x1 rack and never loads it unseen for a thumbnail (no hidden sound or film on the table)
+
 ## v2.3.3 - 2026-10-01
 
 - Includes everything in 2.3.2

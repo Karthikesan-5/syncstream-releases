@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.5 - 2026-10-08
+
+- Includes everything in 2.3.4
+- Settings > DISPLAY: new KIOSK MODE button - one press locks the table to SyncStream, press again to unlock
+- Kiosk mode keeps the app on top, hides the Windows task bar, turns off Windows edge swipes and blocks the Windows key, Alt+Tab and Alt+F4
+- The choice is remembered across restarts and updates; EXIT APPLICATION in settings always gives the desktop back
+
 ## v2.3.4 - 2026-10-03
 
 - Includes everything in 2.3.3

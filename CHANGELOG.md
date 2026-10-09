@@ -1,5 +1,14 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.6 - 2026-10-08
+
+- Includes everything in 2.3.5
+- Kiosk mode: placing the disc no longer drops the table to the desktop - Windows' three- and four-finger touch gestures are switched off while kiosk is on (final after one restart of the table PC), and the table snaps straight back full screen if anything minimises it
+- Kiosk mode is now ON by default on a table that never chose; Settings > DISPLAY > KIOSK MODE still turns it off
+- Table: new VOLUME key at the right of the task bar - tap it and a volume slider opens above it; drag or tap to set the level for the table and both walls
+- Volume now really changes the films' sound (table and walls); the wall's VOL + / - keys change the wall's sound at once and keep the table in step
+- Walls: the side keys (cast, play, reset, home, back, volume) act the moment the finger lands instead of on release, so a press is never lost
+
 ## v2.3.5 - 2026-10-08
 
 - Includes everything in 2.3.4

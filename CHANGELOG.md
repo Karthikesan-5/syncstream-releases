@@ -1,5 +1,14 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.7 - 2026-10-09
+
+- Includes everything in 2.3.6
+- Kiosk (the disc switching the table away): the table now takes the front back within a third of a second if anything else does - an app switch, Task View, search, another desktop - and undoes a minimise at once; Task Manager and Windows prompts stay usable
+- Kiosk: the Windows shell restarts once by itself so the three/four-finger gesture switch takes hold without restarting the PC, and kiosk is switched ON on every table with this update
+- Walls: IMG / VID / PDF now stand in their own column beside the side controls, level with RESET, HOME and BACK; the media frame and thumbnails moved slightly left to make room
+- Walls: a page opens on its VIDEO family when it has films (walls only - the table keeps its own start); any family tap takes over
+- Walls: easier touch - wider hit areas on every side key and family key, keys act as the finger lands, and a slightly wobbling tap is no longer mistaken for a swipe
+
 ## v2.3.6 - 2026-10-08
 
 - Includes everything in 2.3.5

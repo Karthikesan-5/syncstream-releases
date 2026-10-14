@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.8 - 2026-10-14
+
+- Includes everything in 2.3.7
+- Kiosk: three- and four-finger gestures (any number of fingers) can no longer take the table away - Task View, the app switcher, Start, search and show desktop are dismissed the instant they open and the table stays in front (reproduced and tested with injected multi-finger touches)
+- Kiosk: the table refuses to close unless it is meant to - Alt+F4, EXIT APPLICATION, a software update or Windows shutting down; a tap on Task View's X or any other close is turned down
+- Kiosk: Alt+F4 now closes the table (it was blocked before) and gives the desktop back
+
 ## v2.3.7 - 2026-10-09
 
 - Includes everything in 2.3.6

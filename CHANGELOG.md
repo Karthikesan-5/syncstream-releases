@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.9 - 2026-10-18
+
+- Includes everything in 2.3.8
+- UDP black screen and loader on the table and the walls: the app starts on pure black; UDP 'SYNCSTREAM_ON' plays the XPZ boot loader once and fades into the app; 'SYNCSTREAM_OFF' fades back to black
+- While black or loading, touch, mouse, the disc and RFID cards are ignored and the sound is muted; the app keeps running underneath
+- config.json and loader/loader.mp4 next to each exe (made on first run): port 7000, sender IP, codes, loader file and fade times - replace loader.mp4 to change the loader, no rebuild
+
 ## v2.3.8 - 2026-10-14
 
 - Includes everything in 2.3.7

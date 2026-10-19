@@ -1,5 +1,11 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.11 - 2026-10-19
+
+- Includes everything in 2.3.10
+- UDP black screen / loader now answers the site trigger's own codes, SYSTEM_ON and SYSTEM_OFF - the same codes, port 9000 and sender 192.168.0.155 the working UDP_XP_Fix uses, received the same way, so one trigger drives every system
+- A config.json still holding SYNCSTREAM_ON / SYNCSTREAM_OFF moves to SYSTEM_ON / SYSTEM_OFF by itself
+
 ## v2.3.10 - 2026-10-19
 
 - Includes everything in 2.3.9

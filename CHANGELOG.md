@@ -1,5 +1,11 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.10 - 2026-10-19
+
+- Includes everything in 2.3.9
+- UDP black screen / loader now listens on port 9000 and takes commands only from the trigger PC 192.168.0.155 (SYNCSTREAM_ON plays the loader and opens the app, SYNCSTREAM_OFF fades back to black)
+- A config.json made by 2.3.9 with its first defaults moves to the new port and sender by itself; anything set by hand is kept
+
 ## v2.3.9 - 2026-10-18
 
 - Includes everything in 2.3.8

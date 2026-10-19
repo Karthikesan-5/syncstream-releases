@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.12 - 2026-10-19
+
+- Includes everything in 2.3.11
+- UDP trigger: SYSTEM_ON / SYSTEM_OFF and SYNCSTREAM_ON / SYNCSTREAM_OFF are both understood, with or without a leading slash
+- UDP trigger diagnostics: the table and the walls now report their IP, whether port 9000 is open (and which program holds it if not) and the last messages they heard, with why each was taken or ignored
+- If the trigger cannot get through (port taken, or a message ignored), a small grey line on the black screen says why; in normal use the screen stays pure black
+
 ## v2.3.11 - 2026-10-19
 
 - Includes everything in 2.3.10

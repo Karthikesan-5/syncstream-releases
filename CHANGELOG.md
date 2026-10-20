@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.13 - 2026-10-20
+
+- Includes everything in 2.3.12
+- Presence activation: the FIRST presence after each boot (SYNC_PRESENCE from the Vision PC, port 9000; SYSTEM_SHOW is the same message) plays a 10-second activation film behind the XP ZENTRUM logo on the table and both walls - the blue frame traces on, data rushes past, it ends on the frame and cross-fades into the normal background; the table stays on its home page
+- Every later presence opens the carousel page (the walls follow the table); an unattended carousel returns to the landing after the usual two minutes; a presence during the boot loader plays the activation the moment the loader ends; presence from any PC other than the Vision PC is rejected and logged
+- New settings in config.json: presence_code, vision_pc_ip (blank = the trigger PC 192.168.0.155), activation_file, activation_crossfade_ms (600), activation_enabled - the films sit in activation\ beside each exe and can be replaced without a rebuild
+
 ## v2.3.12 - 2026-10-19
 
 - Includes everything in 2.3.11

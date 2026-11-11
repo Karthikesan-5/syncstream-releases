@@ -1,5 +1,10 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.17 - 2026-11-11
+
+- Includes everything in 2.3.16
+- New UDP SIGNALS switch in Admin > DISPLAY (under DISC SOUND PACK): OFF takes the black screen away and goes straight to the main page on the table and the walls, and every UDP code (SYSTEM_ON, SYSTEM_OFF, SYNC_PRESENCE) is ignored; remembered after a restart, so the software opens on the main page until it is switched back ON. Back ON leaves the screen as it is - the next SYSTEM_OFF from the trigger PC starts the normal cycle again
+
 ## v2.3.13 - 2026-10-20
 
 - Includes everything in 2.3.12

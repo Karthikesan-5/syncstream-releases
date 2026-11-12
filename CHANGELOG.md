@@ -1,5 +1,11 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.18 - 2026-11-12
+
+- Includes everything in 2.3.17
+- HOME on the wall goes to the wall's home page at once, every time: it used to wait for the table's answer, so after a touch had opened the carousel on the wall (the table staying on its home page) HOME did nothing, and with the table not answering it did nothing at all. The table still gets the HOME and clears both walls as before
+- All CMS content shows again on the table and the walls: the CMS gives at most 1000 rows per request and the shared media list has grown past that, so 206 of SyncStream's 745 media items (everything past row 1000) never arrived. The rows are now fetched in pages until the list ends
+
 ## v2.3.17 - 2026-11-11
 
 - Includes everything in 2.3.16

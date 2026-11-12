@@ -1,5 +1,14 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.21 - 2026-11-12
+
+- Includes everything in 2.3.20
+- Table and walls stay in touch through a blocked wall PC: on site the walls kept sending and the table kept hearing them, but nothing the table sent arrived at the walls any more (swipe push, SYNC, HOME and the wall's own picks all stopped). The table now also answers each wall over the very channel the wall opens itself, which a firewall or security program lets through; the walls keep calling for the table while they cannot hear it and re-open their receiver if it goes silent
+- Update both together: a wall whose table (same network) runs a newer published version updates itself within seconds, so the table's UPDATE reaches the walls even when the link between them is down
+- The disc keeps its place: three fingers put down elsewhere while the disc holds the table never pull the layer to them, and a finger beside the disc is never taken for one of its feet
+- Admin > DIAGNOSTICS shows DISC COORDINATES (the three foot spacings of the last disc read) - kept for discs with other coordinates opening other content later; not active yet
+- Both machines report what really arrives on the link, and the table reports its last disc visits, to the CMS
+
 ## v2.3.20 - 2026-11-12
 
 - Includes everything in 2.3.19

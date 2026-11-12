@@ -1,5 +1,11 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.19 - 2026-11-12
+
+- Includes everything in 2.3.18
+- Table and walls find each other directly: each machine reads the other's address from the CMS (where both report it every 10 s) and sends to it straight, as well as by broadcast - a table PC on two networks (Wi-Fi and Ethernet) used to broadcast on the wrong one, so no swipe or page reached the walls. The networks are re-checked every 15 s, so a Wi-Fi that joins late is used too
+- Both machines report the link to the CMS every 10 s (table: whether it hears the walls; walls: whether they hear the table), so a link problem can be read remotely
+
 ## v2.3.18 - 2026-11-12
 
 - Includes everything in 2.3.17

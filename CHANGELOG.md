@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.20 - 2026-11-12
+
+- Includes everything in 2.3.19
+- Swipe push, SYNC and the wall mirror reach the walls again: the table now sends every message out of EACH of its network connections (Wi-Fi and cable alike), not only the one Windows prefers - on the site's table PC Windows picked a cable that does not lead to the walls, so the walls heard nothing while the table still heard them
+- The disc stays while it stands: one foot on the glass holds it, a foot the glass forgets and reports again is taken back where it stood, and feet fading one by one on a still disc get 2 s to come back. A real lift (the feet leaving together) still goes home at once
+- The table reports each disc visit to the CMS (how long it stood, foot losses, how it ended)
+
 ## v2.3.19 - 2026-11-12
 
 - Includes everything in 2.3.18

@@ -1,5 +1,13 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.22 - 2026-11-16
+
+- Includes everything in 2.3.21
+- Object recognition by the disc itself: Admin > OBJECT RECOGNITION records a disc (press RECORD, place the disc, let go) - the table reads the distances between its three points and keeps them. Once a disc is recorded, only a recorded disc opens the layer; another object, or three fingers, shows nothing. Until the first disc is recorded the table works as before
+- More than one disc: each disc added in the CMS (Object Recognition) is recorded on the table and opens its own subjects - their names, copy, stats and media - up to four, one per quarter of the ring. A disc without published subjects, or switched off in the CMS, shows nothing
+- A record of readings: every time three points stand on the table, the distances between them, where they stood and what they were read as are kept - the last two in Admin > OBJECT RECOGNITION, the last 400 in the CMS. The pane also shows what stands on the glass now, the match window (MATCH key) and a warning when two discs are too alike to tell apart
+- UDP codes and network from the CMS: the trigger port, the allowed sender, the ON, OFF and presence codes follow the CMS (SyncStream > UDP codes & network) on the table and the walls within seconds, and are kept in config.json when the internet is away
+
 ## v2.3.21 - 2026-11-12
 
 - Includes everything in 2.3.20

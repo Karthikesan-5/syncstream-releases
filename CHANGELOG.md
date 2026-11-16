@@ -1,5 +1,12 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.24 - 2026-11-16
+
+- Includes everything in 2.3.23
+- Each disc has its own look, set in the CMS (Object Recognition, open the disc): a page heading at the top of its page - none when left empty - and the logo at the centre of the ring: its own picture, the built-in one, or none. The PROLIFIC PROJECTS disc carries its heading and the Leisung logo; the Tesla disc is unchanged
+- A subject without stat tiles no longer shows the two lines that stood in their place, and its story takes the room; a long story steps down a size instead of being cut off. Stat tiles for a disc's subject (three, value and label) are entered on the subject in the CMS
+- SYNC on the table reads the discs at once: heading, logo and record follow the CMS on SYNC as well as on the regular check
+
 ## v2.3.23 - 2026-11-16
 
 - Includes everything in 2.3.22

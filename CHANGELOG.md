@@ -1,5 +1,10 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.23 - 2026-11-16
+
+- Includes everything in 2.3.22
+- A disc's subjects keep their own media when they carry the name of a page of the table: subjects named RETAIL, CORPORATE, GOVERNMENT or HOSPITALITY on a second disc handed their pictures, films and documents to the pages of the same name (every item twice on the page, none on the disc). Each subject of a later disc now has a card of its own, so the disc shows its own content and the pages keep theirs. Update the table and the walls before publishing such subjects in the CMS
+
 ## v2.3.22 - 2026-11-16
 
 - Includes everything in 2.3.21

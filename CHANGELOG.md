@@ -1,5 +1,10 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.25 - 2026-11-16
+
+- Includes everything in 2.3.24
+- A film pushed to the walls is heard from the walls only: the table program kept its own hidden copy of each wall card and played the film's sound there as well, so after a push - or after picking a film on the wall itself - the sound went on coming from the table PC. That copy is now silent. A film playing on the table itself is heard from the table as before
+
 ## v2.3.24 - 2026-11-16
 
 - Includes everything in 2.3.23

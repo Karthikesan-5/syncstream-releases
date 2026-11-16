@@ -1,5 +1,10 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.26 - 2026-11-16
+
+- Includes everything in 2.3.25
+- A film pushed to the walls carries on where it stood: a film already playing on the table (from a disc's subject or from a page) started again from its beginning on the wall. The push now tells the wall where the film was, and the wall starts it there. A film sent to the wall without having played on the table starts at its beginning as before
+
 ## v2.3.25 - 2026-11-16
 
 - Includes everything in 2.3.24

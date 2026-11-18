@@ -1,5 +1,18 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.27 - 2026-11-17
+
+- Includes everything in 2.3.26
+- The table hears the trigger again after a settings change: when the sender IP was changed while the table was running, the table closed its trigger listener and could not open it again on the same port, so it stayed deaf to SYSTEM_ON, SYSTEM_OFF and SYNC_PRESENCE until it was restarted (it reported 'UDP 9000 BUSY - held by SyncStream'). A new sender no longer closes the listener, and the listener's port can no longer be kept busy by the web engine
+- Super admin on the table: on the ADMIN PIN pad, hold the word ADMIN for three seconds, then enter the super admin PIN. Its pages - UDP SIGNALS, SENDERS, ADDRESSES, DIAGNOSTICS, SYNC, SOFTWARE UPDATE - show the table and the walls together
+- UDP from the table: switch the UDP signals on or off and change the port, the accepted sender and the presence sender with a number pad. The table takes a change at once, the walls take it over the link straight after, and it is saved to the CMS card. The UDP SIGNALS key moved from Admin - DISPLAY to the super admin
+- SENDERS lists every PC that has sent a code to the table or the walls, with what it sent and whether it was taken or refused; one key accepts the selected PC as the sender
+- ADDRESSES shows the table's and the walls' own IP and port - where the trigger PC must send
+- Sync together, with real numbers: the table starts every sync and the walls run with it. Both pages show the same count (TABLE done / total, WALLS done / total) and the percentage of the work really done, and both close together. The bar no longer moves ahead of the real count
+- Update restarts together: the walls fetch and check their package and wait for the table; table and walls then close in the same moment and start the new version together
+- Update from the table reaches the walls again: two faults made it necessary to go to the walls. The table froze for a few seconds while it checked its download, lost the walls for that moment and then left them out as 'not linked'. And when the walls were told to update, they could not fetch their package from the table and stayed stuck until the walls program was restarted. Both are fixed
+- The walls have no settings panel of their own any more (the hold at a wall's centre is gone): update, sync and UDP are all done from the table
+
 ## v2.3.26 - 2026-11-16
 
 - Includes everything in 2.3.25

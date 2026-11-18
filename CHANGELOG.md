@@ -1,5 +1,14 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.29 - 2026-11-18
+
+- Includes everything in 2.3.28 (one copy per PC; no File Explorer 'Home' window when the table closes) - 2.3.28 was not published on its own
+- Walls: the 3840 x 960 strip is now divided as the walls really are - front wall 1578 x 960, right wall 2262 x 960 (before: 1532 and 2308). The line where the front wall ends and the right wall begins moved 46 pixels to the right
+- Front wall: the home logo, the sync page, the frame, thrown cards, films, pages and web pages are centred on and fill the 1578 wide wall
+- Right wall: the logo in the header, the control keys, the IMG / VID / PDF keys and the thumbnail column keep their distance from the wall's new right edge; the media frame is 46 pixels narrower (904 instead of 950, and 1249 instead of 1295 on a page without thumbnails); the card rows, their arrows and the sync page are centred on the 2262 wide wall
+- Jubail Island page: laid out on the same two walls; its markers stay on the same places of the picture, also where a marker was moved by hand on the walls PC
+- Nothing else is changed. The table program is the same as 2.3.28 apart from the Jubail page it ships
+
 ## v2.3.27 - 2026-11-17
 
 - Includes everything in 2.3.26

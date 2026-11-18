@@ -1,5 +1,15 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.30 - 2026-11-18
+
+- Includes everything in 2.3.29
+- One room, one trigger: a trigger code the table hears (SYSTEM_ON, SYSTEM_OFF, SYNC_PRESENCE) is passed to the walls at once over the table's own link, and a code the walls hear is passed to the table. The boot film, the black screen, the activation film and the opening of the home page now run on the table and on the walls together, even when the code reaches only one of the two PCs
+- Before, each PC acted only on a code that arrived on its own UDP port. On site (2026-11-18) the walls PC received no code at all the whole day, so the walls could never follow
+- The trigger PC and the camera PC now only have to reach ONE of the two PCs - the table is enough (its address and port are on the super admin's ADDRESSES page)
+- A code that reaches both PCs is taken once
+- SENDERS and the diagnostics list a code that came this way as 'passed on by the table' or 'passed on by the walls'
+- The UDP SIGNALS switch and the accepted senders work as before
+
 ## v2.3.29 - 2026-11-18
 
 - Includes everything in 2.3.28 (one copy per PC; no File Explorer 'Home' window when the table closes) - 2.3.28 was not published on its own

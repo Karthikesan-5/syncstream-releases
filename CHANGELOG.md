@@ -1,5 +1,22 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.31 - 2026-11-25
+
+- Includes everything in 2.3.30
+- Dashboard previews show at once: pictures of all ten built-in websites ship with the program, so every tile shows its page the moment the dashboard opens, also on a fresh table. Each is replaced by the live picture in the background, and a preview older than a day is taken again
+- Websites open at once: the page's picture shows in the page window immediately and the live page takes over as soon as it has drawn. The web engine is started when the dashboard opens, so the first page does not wait for it. On the walls each tile shows its page's picture until the live page has drawn
+- Table and walls in step both ways: a page swiped to a wall now stays open on the table too (before, it closed on the table). It is drawn at the wall's own shape, every touch on the table (tap, drag, two-finger zoom) is done on the wall's page, and every touch on the wall's page is done on the table. Closing it on the table leaves it on the wall. On the live page two fingers zoom the page; the window is moved and thrown with its grip
+- Fewer adverts: FLIGHTAWARE and FLIGHT RADAR (a large advert panel, a video advert and promotions) are replaced by the ad-free Airplanes.live flight map: AIR TRAFFIC (the UAE and the Gulf) and FLIGHT RADAR (Dubai)
+- Built-in website list, used while the CMS webpage list is empty (it was found empty on 2026-11-24): NCM RADAR, AIR TRAFFIC, LEISUNG, FLIGHT RADAR, WEATHER, MARINE, CYBER THREAT MAP, EARTH WINDS, NASA EARTH SATELLITES, LIVE EARTHQUAKES (the 2 x 5 PRESET order), plus WEBGL FLUID and JUBAIL ISLAND. Pages added in the CMS replace it as before
+- Fixed: a page closed or replaced before it had loaded was saved with the PREVIOUS site's picture (on the test PC NCM RADAR showed Windy). Previews saved by older versions are not used any more
+- Fixed: a black, grey, white or loading-screen picture was kept as a page's preview for good; such a picture is never kept now, and the page gets a second, longer look
+- Fixed: websites only got a preview once somebody had opened them by hand; every website on the dashboard is now pictured by itself, whichever layout is open
+- Fixed: tapping a tile while a preview was being taken in the background set that hidden page down on the table as a kept card
+- Fixed: a site that ignored the request to open (seen after Flight Radar) is asked again after 8 s
+- Cookie notices are answered on the table's page as they already were on the walls
+- 2 x 5 PRESET and the wall map: each page on the table's wall map shows its picture, with its name along the foot
+- Walls: a finger dragged on an ordinary web page scrolls it (before it only selected text); a drag on a map still moves the map, and a tap is still a click. Two fingers spread or pinched on a website zoom it. The Jubail Island page keeps its own touch exactly as before
+
 ## v2.3.30 - 2026-11-18
 
 - Includes everything in 2.3.29

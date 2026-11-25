@@ -1,5 +1,14 @@
 # SyncStream 2.0 - Releases
 
+## v2.3.32 - 2026-11-25
+
+- Includes everything in 2.3.31
+- Walls: a website no longer shows blurred first and sharp after. The small picture 2.3.31 put in front of a page while it loaded (a 480-pixel picture stretched over the wall) is gone from the walls; the tile stays dark until the page itself has drawn, sharp
+- Kiosk mode: the table always covers the WHOLE screen. The window is checked against the screen twice a second and set to it, edge to edge with no frame, whenever it is smaller or moved (on site it stood as a smaller window with white around it). The table's report to the CMS now says the screen, the window and where it stands
+- Objects (discs): the pictures of every disc subject are loaded ahead of time while the table is idle and kept in memory, so a disc's page opens with its pictures at once instead of loading them from disk when the disc lands
+- Lighter on an older PC: the table now draws with Direct3D 11 (the graphics of 4th generation PCs have no Direct3D 12; Direct3D 12 stays as the fallback) and without anti-aliasing (nothing to smooth on a flat UI). On an older PC (Intel Core 2nd-6th generation, Intel HD graphics or under 8 GB of memory) the table draws at half rate after 15 s without a touch and goes back to full speed at the first touch, and the dashboard does not retake website previews in the background every day. Nothing on the screen changes
+- The table's report to the CMS now also says the PC (processor, memory, graphics) and the frames a second it draws
+
 ## v2.3.31 - 2026-11-25
 
 - Includes everything in 2.3.30
